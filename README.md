@@ -45,7 +45,7 @@
     <tbody>
         <tr>
             <td>Example usage</td>
-            <td><img src="path/to/image_clone.png" alt="Clone"></td>
+            <td><img src="example.jpeg" alt="Clone"></td>
         </tr>
     </tbody>
 </table>
