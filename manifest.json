@@ -1,0 +1,12 @@
+{
+        "manifest_version": 3,
+        "name": "Bold First Third Letters",
+        "version": "1.0",
+        "decription": "Makes every word's first third letters start with bold.",
+        "content_scripts": [
+                {
+                "matches": ["<all_urls>"],
+                "js": ["content.js"]
+                }
+        ]
+}
