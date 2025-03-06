@@ -20,8 +20,8 @@
 
 <h2>🛠️ Installation</h2>
 
-<h3>Step 1: Clone the repository</h3>
-<code>git clone https://github.com/yourusername/awesome-project.git</code>
+<h3>Step 1: Clone the repository or download the zip file</h3>
+<code>git clone https://github.com/tberndt5/bionic_reading_plugin.git</code>
 
 <h3>Step 2: Unzip the files</h3>
 
@@ -45,7 +45,7 @@
     <tbody>
         <tr>
             <td>Example usage</td>
-            <td><img src="example.jpeg" alt="Clone"></td>
+            <td><img src="example.jpeg" alt="Example"></td>
         </tr>
     </tbody>
 </table>
