@@ -1,63 +1,70 @@
 <h1> ⚡📖 Bionic Reading Plugin</h1>
 
-<p>A simple Chrome extension designed to enhance readability by automatically bolding the first third of every word on a webpage. Inspired by speed-reading techniques, this visual enhancement helps users quickly grasp text content, improve readability, and reduce visual fatigue. Ideal for those interested in productivity, accessibility, or simply improving their online reading experience.</p>
+<p><b>Bionic</b>Reading is an interactive Chrome extension designed to improve readability, inspired by bionic reading methods particularly beneficial for neurodivergent individuals. It dynamically bolds a customizable fraction of the initial letters of every word on any webpage, enhancing visual focus, reducing fatigue, and boosting comprehension.</p>
 
 <hr>
 
-<h2> How it works</h2>
+<h2> 🚀 Features</h2>
 <ul>
-  <li>
-    Automatically applies heavy bold (font-weight: 900) and slight scaling to the initial letters of each word.
-  </li>
-  <li>
-    Ensures optimal readability without altering original text colors or page layout.
-  </li>
-  <li>
-    Lightweight and compatible with virtually all websites.
-  </li>
+  <li>Dynamic Customization: Choose exactly how much of each word is bolded (e.g., bold the first third, half, or quarter).</li>
+
+<li>Adjustable Boldness: Set your preferred bold weight from regular (400) to extra bold (900).</li>
+
+<li>Visual Scaling: Slightly scale bolded letters to further enhance visibility without compromising page aesthetics.</li>
 </ul>
 <hr>
 
-<h2>🛠️ Installation</h2>
+<h2>⚙️ Installation & Usage</h2>
 
-<h3>Step 1: Clone the repository or download the zip file</h3>
-<code>git clone https://github.com/tberndt5/bionic_reading_plugin.git</code>
+<h3>Step 1: Clone or download the repository</h3>
+<pre><code>git clone https://github.com/tberndt5/bionic_reading_plugin.git</code></pre>
 
-<h3>Step 2: Unzip the files</h3>
+<h3>Step 2: Load the extension in Chrome</h3>
+<ul>
+    <li>Open Chrome and navigate to <code>chrome://extensions</code>.</li>
+    <li>Toggle <strong>Developer mode</strong> (top-right corner).</li>
+    <li>Click <strong>"Load unpacked"</strong>.</li>
+    <li>Select the downloaded or cloned <code>BionicReading</code> folder.</li>
+</ul>
 
-<h3>Step 3: Go to Chrome extension page in browser</h3>
-<code>chrome://</code>
+<h3>Step 3: Adjust settings</h3>
+<ul>
+    <li>Click the extension icon in the toolbar.</li>
+    <li>Use the popup to adjust:
+        <ul>
+            <li><strong>Bold Fraction</strong> (fraction of each word to bold, e.g., first half, third, etc.)</li>
+            <li><strong>Font Weight</strong> (boldness intensity)</li>
+            <li><strong>Scale Transformation</strong> (size increase of bolded letters)</li>
+        </ul>
+    </li>
+    <li>Click <strong>"Save & Apply"</strong> to apply your custom settings instantly.</li>
+</ul>
 
-<h3>Step 4: Switch developer mode on</h3>
-<h3>Step 5: Click Load unpacked button</h3>
-<h3>Step 6: Select the folder housing the code</h3>
-<hr>
+<div class="section-divider"></div>
 
-<h2>📸 Examples</h2>
+<h2>🛠️ How It Works</h2>
 
-<table>
-    <thead>
-        <tr>
-            <th>Step</th>
-            <th>Image</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Example usage</td>
-            <td><img src="example.jpeg" alt="Example"></td>
-        </tr>
-    </tbody>
-</table>
+<ul>
+    <li>Injects dynamic CSS and JavaScript into webpages.</li>
+    <li>Respects original text colors and layout.</li>
+    <li>Enhances readability by visually distinguishing the initial letters.</li>
+</ul>
 
-<hr>
+<div class="section-divider"></div>
 
-<hr>
+<h2>📸 Example Usage</h2>
+
+<img src="/example.jpeg" alt="Before and After Example">
+
+
+<div class="section-divider"></div>
 
 <h2>🤝 Contributing</h2>
-<p>Contributions are welcome! Please fork the repository and submit a pull request.</p>
 
-<hr>
+<p>We welcome contributions! To contribute:</p>
+<ul>
+    <li>Fork the repository.</li>
+    <li>Submit your improvements via a Pull Request.</li>
+</ul>
 
-<h2>📄 License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+<p><strong>Enjoy clearer and more accessible reading online! ✨</strong></p>
