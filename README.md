@@ -53,9 +53,10 @@
 <div class="section-divider"></div>
 
 <h2>📸 Example Usage</h2>
-
-<img src="/example.jpeg" alt="Before and After Example">
-
+<ul>
+  <li><img src="/setup.png" alt="bionic reading setup"></li>
+  <li><img src="/example.jpeg" alt="bionic reading example"></li>
+</ul>
 
 <div class="section-divider"></div>
 
